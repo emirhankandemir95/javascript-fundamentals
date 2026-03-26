@@ -38,7 +38,39 @@ console.log(mentorName); // Console will not go to that line. Assignment to cons
 
 // Data Reading
 
-const birthYear = Number(prompt("What is your birth year?"));
-const currentYear = 2026;
-const age = currentYear - birthYear;
-console.log(`You are ${age} years old.`);
+//const birthYear = Number(prompt("What is your birth year?"));
+//const currentYear = 2026;
+//const age = currentYear - birthYear;
+//console.log(`You are ${age} years old.`);
+
+
+// Variable Types
+
+const number = 5;
+console.log(`Type of Variable: ${typeof (number)}`);
+
+const myName = "Emir";
+console.log(`Type of Variable: ${typeof (myName)}`);
+
+const isTrue = true;
+console.log(`Type of Variable: ${typeof (isTrue)}`);
+
+let z; // We used let here because you need to declare when giving const 
+
+console.log(z) // This throws a undefined.
+
+// Need to know
+
+const myNumber = 10;
+const myString = "Harry";
+console.log(myNumber + myString); // It would concatenated.
+
+const myNewNumber = 15;
+const myNewString = "Buse";
+console.log(myNewNumber - myNewString); // This log outputs NaN.
+
+const mySecondNumber = "5";
+const myThirdNumber = 10;
+console.log(mySecondNumber + myThirdNumber); // It would concatenated.
+
+console.log(mySecondNumber - myThirdNumber); // In JavaScript (+) sign always prioritizes concatenate. But here (-) it would just do the math.
