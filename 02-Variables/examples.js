@@ -23,3 +23,12 @@ const engGrade = Number(prompt("What is your english grade?"));
 const historyGrade = Number(prompt("What is your history grade?"));
 const averageGrade = (mathGrade + engGrade + historyGrade) / 3;
 console.log(`Your note average is: ${averageGrade}`) // We hard coded here for 3. But we can always take the input from how much lesson will user take and loop it. And mean that lessons to given lesson numbers.
+
+// Example: Rectangle Area and Perimeter Calculator
+// This app takes input from user and outputs area and perimeter.
+const shortSide = Number(prompt("Rectangle Shortside(cm): "));
+const longSide = Number(prompt("Rectangle Longside(cm): "));
+const areaOfRectangle = shortSide * longSide;
+const perimeterOfRectangle = 2 * (shortSide+longSide);
+console.log(`Area of Rectangle: ${areaOfRectangle}cm.`);
+console.log(`Perimeter of Rectangle: ${perimeterOfRectangle}cm.`); // We should always check for sides not equal to zero. Same as area.
