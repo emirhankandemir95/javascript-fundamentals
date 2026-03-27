@@ -32,3 +32,12 @@ const areaOfRectangle = shortSide * longSide;
 const perimeterOfRectangle = 2 * (shortSide+longSide);
 console.log(`Area of Rectangle: ${areaOfRectangle}cm.`);
 console.log(`Perimeter of Rectangle: ${perimeterOfRectangle}cm.`); // We should always check for sides not equal to zero. Same as area.
+
+// Example: Circle Area and Perimeter Calculator
+// This app take input from user and gives circles area and perimeter.
+const circleRadius = Number(prompt("Radius(cm): "));
+const piNumber = Math.PI.toFixed(2)
+const areaOfCircle = piNumber * (circleRadius**2);
+const perimeterOfCircle = 2 * piNumber * circleRadius;
+console.log(`Area of Circle: ${areaOfCircle}cm.`);
+console.log(`Perimeter of Circle: ${perimeterOfCircle}cm.`);
