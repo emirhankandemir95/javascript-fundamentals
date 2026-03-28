@@ -47,3 +47,14 @@ console.log(`${number1}, ${number2} is greater than? - ${greaterThan}`)
 console.log(`${number1}, ${number2} is less than? - ${lessThan}`)
 console.log(`${number1}, ${number2} is equal and greater? - ${eqGreaterThan}`)
 console.log(`${number1}, ${number2} is equal or lower? - ${eqLessThan}`)
+
+// Assignment Operators
+/*
+Assignment (=): Equals/Assign
+
+Addition Assignment (+=): Add and Assign
+
+Subtraction Assignment (-=): Subtract and Assign
+
+Multiplication Assignment (*=): Multiply and Assign
+*/
